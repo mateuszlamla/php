@@ -1,0 +1,86 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: seagreen;
+    font-family: Verdana;
+}
+
+.baner {
+    color: white;
+    text-align: center;
+    height: 330px;
+}
+
+
+
+h3 {
+    color: white;
+    text-align: center;
+    letter-spacing: 6px;
+    text-transform: capitalize;
+    margin: 15px;
+}
+
+main {
+    margin: 10px;
+}
+
+.lewy {
+    background-color: whitesmoke;
+    width: 30%;
+    text-align: center;
+    height: 150px;
+    float: left;
+}
+
+.prawy {
+    background-color: whitesmoke;
+    width: 70%;
+    height: 150px;
+    float: right;
+}
+
+.glowny {
+    display: flex;
+    justify-content: center;
+}
+
+.liga {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    color: white;
+    width: 170px;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.liga:hover {
+    color: black;
+    background-color: white;
+}
+
+.liga_mistrzow {
+    display: flex;
+    justify-content: center;
+}
+
+.liga {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    color: white;
+    width: 170px;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.liga:hover {
+    color: black;
+    background-color: white;
+}

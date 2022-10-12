@@ -1,0 +1,4 @@
+SELECT imie, nazwisko from zawodnik WHERE zawodnik.pozycja_id = 4;
+SELECT zespol, punkty, grupa from liga order BY punkty DESC
+SELECT zawodnik.id, zawodnik.nazwisko, pozycja.nazwa from zawodnik join pozycja on zawodnik.pozycja_id = pozycja.id WHERE zawodnik.id = 3 or zawodnik.id = 5;
+TRUNCATE table rozgrywka;
