@@ -1,0 +1,51 @@
+body {
+  background-color: #f6e5dc;
+  font-family: Verdana;
+}
+
+.baner {
+  background-color: #2f180c;
+  text-align: center;
+  color: khaki;
+  height: 60px;
+  float: left;
+  width: 100%;
+}
+
+.lewy {
+  width: 60%;
+  float: left;
+}
+
+.prawy {
+  font-size: 150%;
+  padding: 70px;
+  float: left;
+}
+
+.dolny {
+  background-color: #d0b6a8;
+  text-align: center;
+  padding: 30px;
+  width: 100%;
+  float: left;
+}
+
+footer {
+  background-color: #2f180c;
+  color: khaki;
+  height: 60px;
+  width: 100%;
+  float: left;
+}
+
+img {
+  height: 350px;
+}
+
+.btn {
+  margin: 10px;
+  padding: 5px;
+  background-color: #2f180c;
+  color: khaki;
+}

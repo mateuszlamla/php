@@ -1,0 +1,4 @@
+INSERT into rezerwacje(id, nr_stolika, data_rez, liczba_osob, telefon) VALUES (null, 1, "2017-07-04", 4, '111222333')
+SELECT dania.nazwa FROM dania WHERE dania.typ = 2
+SELECT dania.nazwa FROM dania WHERE dania.typ = 3 AND dania.cena < 15
+UPDATE pracownicy SET pracownicy.stanowisko = 4 WHERE pracownicy.stanowisko = 3
