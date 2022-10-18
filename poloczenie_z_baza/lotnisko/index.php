@@ -9,9 +9,9 @@
 <body>
 
 <form action="rezerwacja.php" method="POST">
-	<input type="text" placeholder="imie" name="imie"><br>
-	<input type="text" placeholder="nazwisko" name="nazwisko"><br>
-	<input type="text" placeholder="miasto zamieszkania" name="miastoz"><br>
+	<input type="text" placeholder="imie" name="imie" pattern='[A-Z]{1}[a-z]{1,}'><br>
+	<input type="text" placeholder="nazwisko" name="nazwisko" pattern='[A-Z]{1}[a-z]{1,}'><br>
+	<input type="text" placeholder="miasto zamieszkania" name="miastoz" pattern='[A-Z]{1}[a-z]{1,}'><br>
 	
 	<?php
 

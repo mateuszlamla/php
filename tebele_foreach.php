@@ -37,7 +37,10 @@ $products = [
 
 
 foreach($products as $produkty => $data){
-    echo '<b>' . $produkty . '</b> <br>' . 'Producent: <i>' . $data['producent'] . '</i><br> Cena: <i>' . $data['cena'] . ' zł </i><br> Kolor: <i>' . $data['kolor'] . '</i><br><br>';
+    if($data['cena'] < 1000){
+        echo '<b>' . $produkty . '</b> <br>' . 'Producent: <i>' . $data['producent'] . 
+        '</i><br> Cena: <i>' . $data['cena'] . ' zł </i><br> Kolor: <i>' . $data['kolor'] . '</i><br><br>';
+    }
 }
 
 ?>
