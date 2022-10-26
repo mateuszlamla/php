@@ -1,0 +1,10 @@
+SELECT ryby.id, ryby.nazwa, ryby.wystepowanie FROM ryby WHERE ryby.styl_zycia=2; 
+SELECT lowisko.akwen, lowisko.wojewodztwo from lowisko WHERE lowisko.rodzaj=2 or lowisko.rodzaj=3
+SELECT ryby.nazwa FROM ryby INNER JOIN okres_ochronny on okres_ochronny.Ryby_id=ryby.id
+WHERE okres_ochronny.wymiary_ochronny=0
+CREATE TABLE wedkarze (
+	id int not null,
+    imie text,
+    nazwisko varchar(255),
+    punkty int
+)
